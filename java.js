@@ -25,7 +25,7 @@
 //a=b;
 //b=c;
 //console.log(a);
-var tomr='sunny';
+/*var tomr='sunny';
 if(tomr=='rain'){
     console.log('take a raincoat');
 }
@@ -53,7 +53,7 @@ console.log((age>=18)? "you can vote" : "you can't vote");
 
 //switch statement
 // Evaluates an expression, matching the expression's value to case clause
-var area='circle';
+/*var area='circle';
 var PI=3.142,l=5,b=4,r=3;
 switch(area){
     case 'circle' :
@@ -71,4 +71,44 @@ switch(area){
     
     
 }
+var num=0;
+while(num<=10){
+    console.log(num);
+    num++;
+}
+var numm=0;
+do{
+    console.log(numm);
+    numm++;
+}while(numm<=10);
 
+// for loop
+/*for(intilzer;ConditionRule;iterator){
+
+}*/
+/*for(var nam=0;nam<=10;nam++){
+    console.log(nam);
+}*/
+/*for(var i=1;i<=10;i++){
+    var table=8;
+    console.log(table +"*"+i+" = "+table*i);
+}*/
+//below write a function defination syntex
+/*function functionname(){
+    statement
+}*/
+// programm sum of two number using function
+function sum(a,b){// parameters pass
+    var total=a+b;
+    return total;
+}
+//sum();
+//sum(20,30);// argument pass
+var tata=sum(50,30);
+console.log(tata);
+// sum of two number by using ananonymous function
+var funexp=function(a,b){
+    var total=a+b;
+    return total;
+}
+console.log("two no sum is  "+funexp(5,20));// yha call is tarah hua hai
